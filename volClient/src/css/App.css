@@ -1,0 +1,472 @@
+.App {
+  /* text-align: center; */
+  height: 1000px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 50px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+/* .App-menu {
+  display: inline;
+} */
+
+/* .ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+} */
+
+/* .li {
+  display: inline;
+} */
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.user-box {
+  height: 240px;
+  width: 325px;
+  outline-style: solid;
+  /* background-color: blue; */
+  position: relative;
+  top: 50px;
+}
+
+.user-desc {
+  height: 275px;
+  width: 375px;
+  /* outline-style: solid; */
+  position: relative;
+  top: 80px;
+}
+
+.user-photo {
+  height: 100px;
+  width: 100px;
+  /* outline-style: solid; */
+  position: relative;
+  top: 25px;
+  left: 20px;
+}
+
+.user-names {
+  height: 50px;
+  width: 175px;
+  position: absolute;
+  /* outline-style: solid; */
+  top: 75px;
+  left: 130px;
+}
+
+.full-name {
+  height: 25px;
+  width: 175px;
+  position: relative;
+  text-align: left;
+}
+
+.userName {
+  height: 25px;
+  width: 175px;
+  position: relative;
+  text-align: left;
+}
+/* User Stats */
+.user-stats {
+  height: 55px;
+  width: 175px;
+  position: absolute;
+  outline-style: solid;
+  outline-width: .5px;
+  top: 135px;
+  left: 130px;
+  /* background-color: blue; */
+  display: table;
+}
+
+.user-logout {
+  height: 40px;
+  width: 175px;
+  position: absolute;
+  top: 200px;
+  left: 130px;
+  /* background-color: blue; */
+  display: table;
+}
+
+.useRating {
+  height: 55px;
+  /* width: 87.5px; */
+  position: absolute;
+  /* outline-style: solid; */
+  /* background-color: red; */
+  width: 50%;
+  left: 0px;
+  text-align: center;
+}
+
+.userVisits {
+  height: 55px;
+  width: 50%;
+  position: absolute;
+  /* outline-style: solid; */
+  right: 0px;
+  /* background-color: yellow; */
+  text-align: center;
+}
+
+.user-location {
+  height: 30px;
+  width: 225px;
+  position: relative;
+  top: 25px;
+  left: 20px;
+}
+
+.user-bio {
+  height: 190px;
+  width: 325px;
+  position: relative;
+  /* outline-style: solid; */
+  top: 40px;
+  left: 20px;
+  word-wrap: break-word;
+  overflow:hidden;
+}
+
+.location-pos {
+  text-align: left;
+  padding-top: 5px;
+}
+
+
+/* Future Visits Table */
+
+.future-visits {
+  height: 300px;
+  width: 500px;
+  outline-style: solid;
+  position: relative;
+  top: 110px;
+}
+
+/* .table-container {
+  width:600px;
+  height: 200px;
+} */
+
+
+
+
+
+
+/* Volunteer Table */
+
+.vol-photo {
+  height: 50px;
+  width: 50px;
+  /* outline-style: solid; */
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+
+.vol-table {
+  top: 50px;
+  position: relative;
+  text-align: left;
+  height: 350px;
+  width: 500px;
+  /* outline-style: solid; */
+}
+
+.vol-table-topRow {
+  height: 40px;
+  width: 350px;
+  position: absolute;
+  /* outline-style: solid; */
+  display: table;
+}
+
+.vol-table-name {
+  height: 40px;
+  width: 50%;
+  position: absolute;
+  /* outline-style: solid; */
+  left: 0px;
+  text-align: left;
+  /* background-color: blue; */
+}
+
+.vol-table-buttons {
+  height: 40px;
+  width: 50%;
+  position: absolute;
+  right: 0px;
+  text-align: right;
+  /* background-color: red; */
+}
+
+.vol-table-desc {
+  height: 90px;
+  width: 350px;
+  position: absolute;
+  /* outline-style: solid; */
+  top: 50px;
+  /* left: 500px; */
+  text-align: center;
+}
+
+.vol-table-desc-stats {
+  height: 20px;
+  width: 425px;
+  position: absolute;
+  outline-style: solid;
+  display: table;
+  outline-width: .5px;
+}
+
+.vol-table-desc-stats-location {
+  height: 20px;
+  width: 33%;
+  position: relative;
+  /* outline-style: solid; */
+  float: left;
+  text-align: center;
+}
+
+.vol-table-desc-stats-rating {
+  height: 20px;
+  width: 33%;
+  position: relative;
+  /* outline-style: solid; */
+  float: right;
+  text-align: center;
+}
+
+.vol-table-desc-bio {
+  height: 60px;
+  width: 425px;
+  position: absolute;
+  display: table;
+  top: 32px;
+  font-size: 10px;
+}
+
+.vol-table-td {
+  /* width:600px; */
+  outline-style: solid;
+}
+
+.vol-feed {
+  top: 50px;
+  height: 600px;
+  width: 550px;
+  /* outline-style: solid; */
+  position: relative;
+  overflow: scroll;
+}
+
+.vol-cell {
+  position: relative;
+  height: 200px;
+  width: 530px;
+}
+
+.vol-section {
+  height: 140px;
+  width: 350px;
+  position: absolute;
+  /* outline-style: solid; */
+  top: 10px;
+  bottom: 15px;
+  left: 100px;
+}
+
+/* .vol-table-buttons {
+  height: 10px;
+  width: 100px;
+  outline-style: solid;
+  left: 100px;
+} */
+
+
+
+
+
+/* History Table */
+
+.history-table {
+  position: relative;
+  top: 75px;
+  height: 250px;
+  width: 550px;
+  outline-style: solid;
+  overflow: scroll;
+}
+
+.hist-cell {
+  position: relative;
+  height: 95px;
+  width: 530px;
+  /* outline-style: solid; */
+}
+
+.hist-photo {
+  height: 50px;
+  width: 50px;
+  /* outline-style: solid; */
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+
+.hist-table-topRow {
+  height: 40px;
+  width: 350px;
+  position: absolute;
+  /* outline-style: solid; */
+  display: table;
+  left: 100px;
+  top: 15px;
+}
+
+.hist-table-name {
+  height: 40px;
+  width: 50%;
+  position: absolute;
+  /* outline-style: solid; */
+  left: 0px;
+  text-align: left;
+  /* background-color: blue; */
+}
+
+.hist-table-buttons {
+  height: 40px;
+  width: 50%;
+  position: absolute;
+  right: 0px;
+  text-align: right;
+  /* background-color: red; */
+  text-align: left;
+}
+
+
+/* Profile */
+
+.profile-first-section {
+  position: relative;
+  height: 550px;
+  width: 760px;
+  /* outline-style: solid; */
+  top: 25px;
+}
+
+.profile-photo {
+  height: 100px;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.profile-name {
+  height: 40px;
+  width: 225px;
+  position: relative;
+  text-align: center;
+  outline-style: solid;
+  margin-left: auto;
+  margin-right: auto;
+  top: 15px;
+}
+
+.profile-user-stats {
+  height: 55px;
+  width: 175px;
+  position: relative;
+  outline-style: solid;
+  top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: blue; */
+  display: table;
+}
+
+.profile-bio {
+  width: 500px;
+  height: 200px;
+  outline-style: solid;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 75px;
+}
+
+/* Login Form */
+
+.login-container {
+  height: 275px;
+  width: 375px;
+  /* outline-style: solid; */
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 200px;
+}
+
+.email-box {
+  height: 50px;
+  width: 300px;
+  /* outline-style: solid; */
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 40px;
+}
+
+.password-box {
+  height: 50px;
+  width: 300px;
+  /* outline-style: solid; */
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 60px;
+}
+
+.buttons-box {
+  height: 35px;
+  width: 300px;
+  /* outline-style: solid; */
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 75px;
+  text-align: center;
+}
+
+.sign-up-form {
+  text-align: left;
+}
+
